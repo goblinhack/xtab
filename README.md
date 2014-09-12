@@ -32,33 +32,3 @@ e.g.:
     xtab.sh -screen  -t tabA -c "vim 1" -t tabB -c "vim 2"
     xtab.sh -gnome   -t tabA -c "vim 1" -t tabB -c "vim 2"
     xtab.sh -mrxvt   -t tabA -c "vim 1" -t tabB -c "vim 2"
-
-  -n
-  -name
-  --name <title>    : Name of the window to launch.
-
-  -t
-  -title             
-  --title           : Title for this tab.
-
-  -c
-  -command           
-  --command         : Command to run in this tab.
-
-  -gnome
-  --gnome           : Use tabbed gnome terminal
-
-  -xterm
-  --xterm           : Use multiple xterms
-
-  -konsole
-  --konsole         : Open tabbed konsole sessions
-
-  -mrxvt
-  --mrxvt           : Open tabbed mrxvt sessions
-
-  -screen
-  --screen          : Open terminal screen sessions
-
-Version 0.1
-./xtab.sh: no commands specified
